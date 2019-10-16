@@ -39,6 +39,7 @@ int double_comp(const void* x,const void* y) {
          if(e_score[i]>e_ave)e_dv[i]=50.0+(e_score[i]-e_ave)*10/e_sd;
          else if(e_score[i]<e_ave)e_dv[i]=50.0-(e_ave-e_score[i])*10/e_sd;
          else e_dv[i]=50.0;
+
         }
 
       printf("理科の合計点=%f 理科の平均点=%f 理科の標準偏差=%f\n",s_sum,s_ave,s_sd);
